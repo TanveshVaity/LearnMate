@@ -1,8 +1,10 @@
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div className="font-sans flex text-center justify-center min-h-screen p-8 pb-20 sm:p-20">
-      Learmate
+    <div className="font-sans flex flex-col text-center min-h-screen">
+      <Navbar />
+      <p>LernMate</p>
     </div>
   );
 }
