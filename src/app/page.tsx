@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
             Transform any content into summaries, flashcards, and quizzes. Learn smarter, not harder.
           </p>
           <Button size="lg" className="text-md">
-            Get Started
+            <Link href="/dashboard">
+              Get Started
+            </Link>
           </Button>
         </div>
       </div>
