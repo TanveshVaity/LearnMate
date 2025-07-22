@@ -6,7 +6,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="font-sans flex flex-col min-h-screen">
-      <Navbar />
       <div className="relative w-full max-w-5xl h-[80vh] mx-auto flex items-center justify-center">
         <Image
           src="/images/heroBackground.png"
